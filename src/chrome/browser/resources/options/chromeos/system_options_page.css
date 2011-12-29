@@ -1,0 +1,39 @@
+.pointer-sensitivity-more {
+  float: right;
+}
+
+html[dir=rtl] .pointer-sensitivity-more {
+  float: left;
+}
+
+.option-name {
+   display: inline;
+}
+
+#timezone-value {
+   display: inline-block;
+   vertical-align: baseline;
+}
+
+#pointer-value,
+#slider-control {
+   display: inline-block;
+   vertical-align: top;
+}
+
+#bluetooth-options-div {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+
+#bluetooth-devices-label {
+  -webkit-margin-end: 8px;
+  -webkit-margin-start: 8px;
+  font-weight: bold;
+}
+
+.bluetooth-button-group {
+  -webkit-padding-end: 5px;
+  vertical-align: middle;
+}
+
